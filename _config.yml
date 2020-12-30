@@ -186,6 +186,9 @@ markdown    : kramdown
 highlighter : rouge
 permalink   : date
 
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
+
 exclude:
   - CHANGELOG.md
   - HOW_TO_RELEASE.md
