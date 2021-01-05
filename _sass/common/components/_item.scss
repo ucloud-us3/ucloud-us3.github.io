@@ -52,22 +52,22 @@ a > .item__header, a.item__header, .item__header > a {
       border: none;
     }
     h1 {
-      font-size: map-get($base, font-size-h1-xs);
+      font-size: map-get($base, font-size-h1);
     }
     h2 {
-      font-size: map-get($base, font-size-h2-xs);
+      font-size: map-get($base, font-size-h2);
     }
     h3 {
-      font-size: map-get($base, font-size-h3-xs);
+      font-size: map-get($base, font-size-h3);
     }
     h4 {
-      font-size: map-get($base, font-size-h4-xs);
+      font-size: map-get($base, font-size-h4);
     }
     h5 {
-      font-size: map-get($base, font-size-h5-xs);
+      font-size: map-get($base, font-size-h5);
     }
     h6 {
-      font-size: map-get($base, font-size-h6-xs);
+      font-size: map-get($base, font-size-h6);
     }
     img {
       max-height: 32rem;
