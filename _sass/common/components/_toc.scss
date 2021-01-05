@@ -77,11 +77,7 @@ ul.toc {
 
 // 右侧侧边栏-文章目录
 ul.toc--ellipsis {
-  & > li {
-    @include overflow(hidden);
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
+
   .toc-h1 {
     &, a {
       font-size:1rem;
@@ -90,13 +86,13 @@ ul.toc--ellipsis {
   }
   .toc-h2 {
     &, a {
-      font-size:.9rem;
+      font-size:.95rem;
 
     }
   }
   .toc-h3 {
     &, a {
-      font-size:.8rem;
+      font-size:.85rem;
 
     }
   }

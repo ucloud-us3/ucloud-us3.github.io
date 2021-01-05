@@ -231,5 +231,9 @@ plugins:
 
 collections_dir: collections
 collections:
+  go-sdk:
+    output: true
   python-sdk:
+    output: true
+  c-sdk:
     output: true
