@@ -56,6 +56,8 @@ go-sdk:
         url:    /go-sdk/概述.html
       - title:  快速使用
         url:    /go-sdk/快速使用.html
+      - title:  编译指南（ARM）
+        url:    /go-sdk/编译指南（ARM）.html    
       - title:  初始化请求
         url:    /go-sdk/初始化请求.html                
       - title:  存储空间管理
@@ -99,8 +101,7 @@ go-sdk:
                 url:    /go-sdk/文件重命名.html                           
               - title:  文件解冻
                 url:    /go-sdk/文件解冻.html      
-      - title:  ARM 机器编译 Go SDK
-        url:    /go-sdk/ARM 机器编译 Go SDK.html                 
+             
 
 python-sdk:
   - title:      Python-SDK

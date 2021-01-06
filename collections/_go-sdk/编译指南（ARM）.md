@@ -1,6 +1,6 @@
 ---
 catalog: true  
-title: 'ARM 机器编译 Go SDK'
+title: '编译指南（ARM）'
 sidebar:
   nav: go-sdk
 ---
@@ -34,12 +34,12 @@ sidebar:
 <div class="copyable" markdown="1">
 
   ```shell
-   GOROOT
-  export GOROOT=/usr/local/go
-   GOPATH
-  export GOPATH=/data/go
-   GOPATH bin
-  export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+# GOROOT
+export GOROOT=/usr/local/go
+# GOPATH
+export GOPATH=/data/go
+# GOPATH bin
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
   ```
 </div>
 
@@ -69,7 +69,7 @@ sidebar:
   ```
 </div>
 
-  ![image-20201209171357007](ARM%20%E6%9C%BA%E5%99%A8%E7%BC%96%E8%AF%91%20Go%20SDK.assets/image-20201209171357007.png)
+  ![image-20201209171357007](img/image-20201209171357007.png)
 
 
 
