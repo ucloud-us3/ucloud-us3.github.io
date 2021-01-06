@@ -1,66 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="229px" height="252px" viewBox="0 0 229 252" enable-background="new 0 0 229 252" xml:space="preserve">  <image id="image0" width="229" height="252" x="0" y="0"
-    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOUAAAD8CAMAAAC/zpN3AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACu1BMVEU4YPRPcvWZrfmGnvho
-hvb////Y4Pzt8P7+/v5dffbv8v5efvZCaPRDafQ5YfRSdfWlt/qktvmjtvmOpfhEafTg5v1lhPY7
-Y/Q9ZPQ/ZfRAZvRGa/RHbPRJbvRLb/VNcPVOcvVQc/VUdvVVd/VXefVZevVbfPVcffZff/ZggPZi
-gfZjgvZmhPZnhvZph/ZqiPZtivZui/dwjPdxjvdti/Z/mPfU3PzV3fzX3/zZ4fzb4v3c4/3e5P3i
-5/3j6f3l6v3n7P3p7f3q7v3s8P3u8f7w8/7x9P7z9f719/73+P74+v76+/78/f48Y/TJ0/xigvaT
-qPmpu/p2kffO2Pxzj/c+ZPRwjfemuPqSqPk/ZvRvjPd0kPdBZ/SRp/hae/VKbvV1kfdFavSPpfiN
-pPiQp/iQpvhIbfRJbfRTdfWFnficsPmmt/qdsflMcPWBmvi1xPqesfm7yfufsvlNcfWgs/m8yvuh
-tPmEnfiitPmitfm9yvtRdPWnufqNo/iCm/hUd/WpuvqMo/hWePVXePWqu/qrvPqsvPqLovhYevWv
-v/q0w/qtvfp4k/etvvrr7/2uvvqKoviwwPqxwfqywfqJofizwvrp7v22xfqJoPhhgfa3xfu3xvu4
-xvvm6/37/P65x/uIoPhkg/a6yPu7yPtmhfaHn/g7YvTS2/y+y/u/y/u/zPvAzfvBzftrifbCzvts
-ifbDz/vE0PvF0PvG0fvG0vvH0vvI0/vJ1PxyjvfK1fzL1fzM1vzN1/yDnPh3kvfQ2fx3k/fQ2vzR
-2vx5lPd6lffT3Px7lffU3fx7lvd8lvfW3vx9l/d+mPd/mfeAmfja4fzd5P3f5f3f5v3h5/3i6P3k
-6f3o7P06YfTt8f6UqfmUqvny9f6VqvmWq/n09v6XrPmYrfn3+f6arvmbr/n5+v77+/79/f72+P7P
-2PxyyF2zAAAAAWJLR0QF+G/pxwAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+UBBQwWFfi8
-UUsAAAnYSURBVHja7d35fxT1GQfwgbAQJOQgUAIJECJKkEMIghJAwk0IhCOEQ0iERDE0mgYtUtKA
-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
-KzAwOjAwgsrWyAAAAABJRU5ErkJggg==" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="85" viewBox="0 0 72 85">
+  <defs>
+    <polygon id="u-a" points=".007 .683 3.646 .683 3.646 4.281 .007 4.281"/>
+    <polygon id="u-c" points="0 .153 3.641 .153 3.641 3.747 0 3.747"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#4458FB" d="M38.8069,84.3169 C7.6759,84.3169 6.0939,61.5439 6.0939,56.9779 L6.0889,28.2909 L13.4819,28.1149 L13.2909,20.9649 L20.7459,20.8169 L20.5679,13.9769 L26.4189,13.7429 L26.6039,57.9599 C26.6039,68.3869 33.2409,70.5749 38.8069,70.5749 C46.4909,70.5749 51.0789,65.9539 51.0789,58.2109 L51.0299,6.8999 L71.3409,6.7239 L71.5249048,57.7359 C71.5269,60.6409 70.9089,68.0969 65.1729,74.5649 C59.4349,81.0369 50.5639,84.3169 38.8069,84.3169"/>
+    <polygon fill="#4458FB" points="20.563 6.951 25.468 6.772 25.644 11.617 20.563 11.796"/>
+    <polygon fill="#4458FB" points="13.775 11.486 13.599 7.257 17.881 7.082 18.057 11.486"/>
+    <g transform="translate(14 .317)">
+      <mask id="u-b" fill="#fff">
+        <use xlink:href="#u-a"/>
+      </mask>
+      <polygon fill="#4458FB" points=".183 4.281 .007 .859 3.471 .683 3.646 4.281" mask="url(#u-b)"/>
+    </g>
+    <polygon fill="#4458FB" points=".537 10.724 .361 8.019 3.101 7.843 3.277 10.724"/>
+    <polygon fill="#4458FB" points="6.264 26.096 6.088 21.251 10.993 21.075 11.169 26.096"/>
+    <g transform="translate(0 14.317)">
+      <mask id="u-d" fill="#fff">
+        <use xlink:href="#u-c"/>
+      </mask>
+      <polygon fill="#4458FB" points=".176 3.747 0 .329 3.464 .153 3.641 3.747" mask="url(#u-d)"/>
+    </g>
+    <polygon fill="#4458FB" points="13.463 18.777 13.287 13.932 18.192 13.756 18.368 18.777"/>
+    <polygon fill="#4458FB" points="6.576 18.47 6.4 14.239 10.681 14.063 10.859 18.47"/>
+    <polygon fill="#4458FB" points="6.985 11.083 6.809 7.661 10.274 7.485 10.45 11.083"/>
+    <polygon fill="#4458FB" points="7.173 1.534 9.912 1.358 10.088 4.063 7.173 4.242"/>
+    <polygon fill="#4458FB" points=".984 3.801 .808 1.975 2.655 1.799 2.833 3.625 2.833 3.801"/>
+  </g>
 </svg>
