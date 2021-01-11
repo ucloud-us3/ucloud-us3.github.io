@@ -11,7 +11,7 @@ sidebar:
 * 内核版本：Linux 10-23-173-45 4.18.0-193.el8.aarch64
 * go 版本： [go1.15.6.linux-arm64.tar.gz](https://golang.google.cn/dl/go1.15.6.linux-arm64.tar.gz)
 
-**注意：go源码选择 arm 平台的，而非 amd**
+**注意：go源码选择 ARM 平台的，而非 AMD**
 
 ## 1. 环境准备
 
@@ -43,7 +43,8 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
   ```
 </div>
 
-  激活配置
+* 激活配置
+
 <div class="copyable" markdown="1">
   ```shell
   source /etc/profile
@@ -72,7 +73,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
   ```
 </div>
 
-## 3.在arm平台编译可执行文件
+## 3.在ARM平台编译可执行文件
 <div class="copyable" markdown="1">
 
   ```shell
@@ -84,7 +85,7 @@ go build demo_file.go #编译
 
 ![image-20201209171357007](img/image-20201209171357007.png)
 
-## 4. 在Linux平台编译arm平台可执行文件，并在arm平台运行
+## 4. 在x86架构编译可执行文件
 
 ### 4.1 Linux 环境说明
 
@@ -96,9 +97,9 @@ go build demo_file.go #编译
 <div class="copyable" markdown="1">
 
   ```shell
-# 在Linux平台编译arm平台可执行文件
+# 在Linux平台编译ARM平台可执行文件
 CGO_ENABLED=0 GOOS=linux GOARCH=arm64 go build demo_file.go
-# 在arm平台中有config.json的目录下运行
+# 在ARM平台中有config.json的目录下运行
 ./demo_file 
   ```
 </div>
