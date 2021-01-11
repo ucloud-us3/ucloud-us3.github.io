@@ -73,7 +73,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
   ```
 </div>
 
-## 3.在ARM平台编译可执行文件
+## 3. 在ARM平台编译可执行文件
 <div class="copyable" markdown="1">
 
   ```shell
