@@ -39,6 +39,7 @@ default:
     license: false
     pageview: false
     search: default
+    footer: true
 
 sources:
   bootcdn:

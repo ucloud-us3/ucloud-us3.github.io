@@ -12,17 +12,17 @@ sidebar:
 
 ## 函数说明
 
-`class_switch_file`(*bucket*, *key*, *storageclass*, *header=None*)
+`compare_file_etag`(*bucket*, *remotekey*, *localfile*)
 
-​				文件存储类型转换方法
+​				比较本地文件和远程文件etag
 
-Parameters
+### Parameters
 
 - **bucket** – string类型, 空间名称
 - **remotekey** – string类型, 文件在空间中的名称
 - **localfile** – string类型，本地文件的路径
 
-Returns
+### Returns
 
 * True为比对一致，False为不一致
 
