@@ -1,0 +1,46 @@
+{%- if page.sidebar.nav -%}
+  <div class="sidebar-toc">
+    {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
+    {%- if _sidebar_nav -%}
+    <ul class="toc toc--navigator">
+      {%- for _item in _sidebar_nav -%}
+        <li class="toc-h1">{{ _item.title }}</li>
+        <!-- 二级目录 -->
+        {%- if _item.children -%}
+          {%- for _child in _item.children -%}
+
+
+            {%- if _child.title == page.title -%}
+              {%- unless _child.url  -%}
+                <li class="toc-h2 active">{{ _child.title }}</a></li>
+              {%- else -%}
+                <li class="toc-h2 active"><a href="{{ _child.url }}">{{ _child.title }}</a></li>
+              {%- endunless -%}
+            {%- else -%}
+              {%- if _child.url == null -%}
+                <li class="toc-h2">{{ _child.title }}</a></li>
+              {%- else -%}
+                <li class="toc-h2"><a href="{{ _child.url }}">{{ _child.title }}</a></li>
+              {%- endif -%}
+            {%- endif -%}
+            <!-- 三级目录 -->
+            {%- if _child.children -%}
+              {%- for __child in _child.children -%}
+
+
+                {%- if __child.title == page.title -%}
+                  <li class="toc-h3 active"><a href="{{ __child.url }}">{{ __child.title }}</a></li>
+                {%- else -%}
+                  <li class="toc-h3"><a href="{{ __child.url }}">{{ __child.title }}</a></li>
+                {%- endif -%}
+              {%- endfor -%}
+
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+
+      {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
+{%- endif -%}
