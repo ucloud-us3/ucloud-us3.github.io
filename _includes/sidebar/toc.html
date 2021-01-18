@@ -8,8 +8,7 @@
         <!-- 二级目录 -->
         {%- if _item.children -%}
           {%- for _child in _item.children -%}
-
-
+          <!-- 根据是否为当前页面判断要高亮 -->
             {%- if _child.title == page.title -%}
               {%- unless _child.url  -%}
                 <li class="toc-h2 active">{{ _child.title }}</a></li>
@@ -17,6 +16,7 @@
                 <li class="toc-h2 active"><a href="{{ _child.url }}">{{ _child.title }}</a></li>
               {%- endunless -%}
             {%- else -%}
+            <!-- 判断二级目录是否有url属性 -->
               {%- if _child.url == null -%}
                 <li class="toc-h2">{{ _child.title }}</a></li>
               {%- else -%}

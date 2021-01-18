@@ -1,8 +1,7 @@
 ---
 catalog: true  
 title: '比较本地文件和远程文件etag'
-sidebar:
-  nav: go-sdk
+
 ---
 SDK 提供`CompareFileEtag`方法比较本地文件和远程文件etag，适用于文件完整性判断，例如文件上传、下载过程中是否发生丢失。完整代码参见[Github](https://github.com/ufilesdk-dev/ufile-gosdk/blob/master/file.go)。
 
