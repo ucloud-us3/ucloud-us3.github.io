@@ -1,5 +1,4 @@
----
-catalog: true  
+---  
 title: '比较本地文件和远程文件etag'
 
 ---

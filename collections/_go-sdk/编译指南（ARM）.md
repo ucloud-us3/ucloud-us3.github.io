@@ -1,5 +1,4 @@
----
-catalog: true  
+---  
 title: '编译指南（ARM）'
 sidebar:
   nav: go-sdk
