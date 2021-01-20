@@ -8,10 +8,12 @@
       var scroll = hasSidebar ? '.js-page-main' : 'html, body';
       $scroll = $(scroll);
 
-      $articleContent.find('.highlight').each(function() {
-        $this = $(this);
-        $this.attr('data-lang', $this.find('code').attr('data-lang'));
-      });
+      //去除代码高亮中的language字样
+      // $articleContent.find('.highlight').each(function() {
+      //   $this = $(this);
+      //   // 
+      // //   $this.attr('data-lang', $this.find('code').attr('data-lang'));
+      // });
       $articleContent.find('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]').each(function() {
         $this = $(this);
         $this.append($('<a class="anchor d-print-none" aria-hidden="true"></a>').html('<i class="fas fa-anchor"></i>'));

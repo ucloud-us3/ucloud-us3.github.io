@@ -30,7 +30,7 @@ sidebar:
 
 <div class="copyable" markdown="1">
 
-```python
+{% highlight python linenos %}
 from ufile import filemanager
 
 public_key = ''                 #账户公钥
@@ -46,5 +46,5 @@ if result==True:
     print('etag are the same!')
 else:
     print('etag are different!')
-```
+{% endhighlight %}
 </div>

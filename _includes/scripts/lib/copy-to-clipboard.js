@@ -1,12 +1,14 @@
 (function() {
-	var snippets = document.querySelectorAll('pre');
+	// 选择合适的位置插入copy按钮
+	var snippets = document.querySelectorAll('tr');
 	[].forEach.call(snippets, function(snippet) {
 		if (snippet.closest('.copyable') !== null) {
-			snippet.firstChild.insertAdjacentHTML('beforebegin', '<button class="btn" data-clipboard-snippet><i class="far fa-copy"></i></button>');
+			snippet.lastChild .insertAdjacentHTML('beforebegin', '<button class="btn" data-clipboard-snippet><i class="far fa-copy"></i></button>');
 		}
 	});
 	var clipboardSnippets = new ClipboardJS('[data-clipboard-snippet]', {
 		target: function(trigger) {
+			// 将copy按钮的下一个列表选项的HTML内容 传入剪贴板
 			return trigger.nextElementSibling;
 		}
 	});

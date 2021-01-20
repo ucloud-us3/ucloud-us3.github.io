@@ -9,7 +9,7 @@ SDK 提供`CompareFileEtag`方法比较本地文件和远程文件etag，适用�
 
 <div class="copyable" markdown="1">
 
-```go
+{% highlight go linenos %}
 package main
 
 import (
@@ -44,5 +44,5 @@ func main() {
 	}
 }
 
-```
+{% endhighlight %}
 </div>
