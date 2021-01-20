@@ -18,8 +18,8 @@ import (
 
 const (
 	ConfigFile = "./config.json"
-	FilePath = ""
-	KeyName = ""
+	FilePath = "./FakeBigFile.txt"
+	KeyName = "FakeBigFile.txt"
 )
 
 func main() {
