@@ -169,7 +169,7 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: custom # false (default), "google", "custom"
 
   ## Google Analytics
   google:
@@ -187,7 +187,11 @@ highlighter : rouge
 permalink   : date
 
 kramdown:
-    smart_quotes: ["apos", "apos", "quot", "quot"]
+    smart_quotes: ["apos", "apos", "quot", "quot"] #关闭 smart quotes（将英文引号转为中文引号）
+    #代码添加行号
+    syntax_highlighter_opts:   # Rouge Options › https\://github.com/jneen/rouge#full-options
+      block:
+        line_numbers: true
 
 exclude:
   - CHANGELOG.md
