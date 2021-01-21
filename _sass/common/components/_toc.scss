@@ -86,14 +86,15 @@ ul.toc--ellipsis {
   }
   .toc-h2 {
     &, a {
-      font-size:.95rem;
+      font-size:.96rem;
+      font-weight: 900;
 
     }
   }
   .toc-h3 {
     &, a {
       font-size:.85rem;
-
+      font-weight: 500;
     }
   }
 }
