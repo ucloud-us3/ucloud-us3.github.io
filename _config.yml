@@ -241,3 +241,5 @@ collections:
     output: true
   c-sdk:
     output: true
+  cpp-sdk:
+    output: true
