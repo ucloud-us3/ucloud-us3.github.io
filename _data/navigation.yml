@@ -192,3 +192,30 @@ c-sdk:
                 url:    /c-sdk/分片下载.html
               - title:  删除文件
                 url:    /c-sdk/删除文件.html 
+
+c++-sdk:
+  - title: C++-SDK
+    children:
+      - title: 概述
+        url:   /cpp-sdk/概述.html
+      - title: 快速使用
+        url:   /cpp-sdk/快速使用.html
+      - title: 文件上传
+        children:
+          - title: 简单上传
+            url: /cpp-sdk/简单上传.html
+          - title: 缓存上传
+            url: /cpp-sdk/缓存上传.html
+          - title: 分片上传
+            url: /cpp-sdk/分片上传.html
+
+      - title: 文件管理
+        children:
+          - title: 文件下载
+            url: /cpp-sdk/文件下载.html
+          - title: 删除文件
+            url: /cpp-sdk/删除文件.html
+          - title: 生成下载链接
+            url: /cpp-sdk/生成下载链接.html
+          - title: 获取目录文件列表
+            url: /cpp-sdk/获取目录文件列表.html
