@@ -219,3 +219,5 @@ c++-sdk:
             url: /cpp-sdk/生成下载链接.html
           - title: 获取目录文件列表
             url: /cpp-sdk/获取目录文件列表.html
+          - title: 获取文件基本信息
+            url: /cpp-sdk/获取文件基本信息.html
