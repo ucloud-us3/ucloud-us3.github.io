@@ -221,3 +221,48 @@ c++-sdk:
             url: /cpp-sdk/获取目录文件列表.html
           - title: 获取文件基本信息
             url: /cpp-sdk/获取文件基本信息.html
+
+java-sdk:
+ - title: java-SDK
+   children:
+     - title: 概述
+       url:   /java-sdk/概述.html
+     - title: 快速使用
+       url:   /java-sdk/快速使用.html
+       - title:  文件上传
+        children:
+              - title:  简单上传
+                url:    /java-sdk/简单上传.html
+              - title:  表单上传
+                url:    /java-sdk/表单上传.html
+              - title:  流式上传
+                url:    /java-sdk/流式上传.html      
+              - title:  秒传
+                url:    /java-sdk/秒传.html
+              - title:  分片上传
+                url:    /java-sdk/分片上传.html 
+              - title:  指定存储类型上传
+                url:    /java-sdk/指定存储类型上传.html  
+              - title:  上传回调
+                url:    /java-sdk/上传回调.html    
+      
+      - title:  文件管理
+        children:
+              - title:  比较本地文件和远程文件etag
+                url:    /java-sdk/比较本地文件和远程文件etag.html
+              - title:  存储类型转换
+                url:    /java-sdk/存储类型转换.html
+              - title:  获取文件基本信息
+                url:    /java-sdk/获取文件基本信息.html
+              - title:  前缀列表查询
+                url:    /java-sdk/前缀列表查询.html
+              - title:  获取目录文件列表
+                url:    /java-sdk/获取目录文件列表.html
+              - title:  文件下载
+                url:    /java-sdk/文件下载.html
+              - title:  文件删除
+                url:    /java-sdk/文件删除.html 
+              - title:  文件拷贝
+                url:    /java-sdk/文件拷贝.html                       
+              - title:  文件解冻
+                url:    /java-sdk/文件解冻.html      
