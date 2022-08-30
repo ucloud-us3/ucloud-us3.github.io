@@ -233,18 +233,12 @@ java-sdk:
         children:
           - title:  简单上传
             url:    /java-sdk/简单上传.html
-          - title:  表单上传
-            url:    /java-sdk/表单上传.html
           - title:  流式上传
             url:    /java-sdk/流式上传.html      
-          - title:  秒传
-            url:    /java-sdk/秒传.html
           - title:  分片上传
             url:    /java-sdk/分片上传.html 
           - title:  指定存储类型上传
             url:    /java-sdk/指定存储类型上传.html  
-          - title:  上传回调
-            url:    /java-sdk/上传回调.html    
        
       - title:  文件管理
         children:
@@ -265,4 +259,4 @@ java-sdk:
           - title:  文件拷贝
             url:    /java-sdk/文件拷贝.html                       
           - title:  文件解冻
-            url:    /java-sdk/文件解冻.html      
+            url:    /java-sdk/文件解冻.html
