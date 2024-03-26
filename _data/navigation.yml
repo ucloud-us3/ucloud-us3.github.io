@@ -260,3 +260,5 @@ java-sdk:
             url:    /java-sdk/文件拷贝.html                       
           - title:  文件解冻
             url:    /java-sdk/文件解冻.html
+          - title:  签名URL
+            url:    /java-sdk/签名URL.html
