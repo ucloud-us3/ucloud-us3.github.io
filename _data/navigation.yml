@@ -290,12 +290,12 @@ js-sdk:
             url:    /js-sdk/获取对象权限信息.html
           - title:  获取对象元数据
             url:    /js-sdk/获取对象元数据.html
-          - title:  获取目标文件列表
+          - title:  获取目录文件列表
             url:    /js-sdk/获取目录文件列表.html
           - title:  文件下载
             url:    /js-sdk/文件下载.html
-          - title:  文件删除
-            url:    /js-sdk/文件删除.html
+          - title:  删除文件
+            url:    /js-sdk/删除文件.html
           - title:  拷贝文件
             url:    /js-sdk/拷贝文件.html
           - title:  解冻归档文件
@@ -327,12 +327,12 @@ node.js-sdk:
             url:    /node.js-sdk/获取对象权限信息.html
           - title:  获取对象元数据
             url:    /node.js-sdk/获取对象元数据.html
-          - title:  获取目标文件列表
+          - title:  获取目录文件列表
             url:    /node.js-sdk/获取目录文件列表.html
           - title:  文件下载
             url:    /node.js-sdk/文件下载.html
-          - title:  文件删除
-            url:    /node.js-sdk/文件删除.html
+          - title:  删除文件
+            url:    /node.js-sdk/删除文件.html
           - title:  拷贝文件
             url:    /node.js-sdk/拷贝文件.html
           - title:  解冻归档文件
