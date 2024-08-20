@@ -57,11 +57,11 @@ go-sdk:
       - title:  快速使用
         url:    /go-sdk/快速使用.html
       - title:  编译指南（ARM）
-        url:    /go-sdk/编译指南（ARM）.html    
+        url:    /go-sdk/编译指南（ARM）.html
       - title:  初始化请求
-        url:    /go-sdk/初始化请求.html                
+        url:    /go-sdk/初始化请求.html
       - title:  存储空间管理
-        url:    /go-sdk/存储空间管理.html    
+        url:    /go-sdk/存储空间管理.html
       - title:  文件上传
         children:
               - title:  简单上传
@@ -69,16 +69,16 @@ go-sdk:
               - title:  表单上传
                 url:    /go-sdk/表单上传.html
               - title:  流式上传
-                url:    /go-sdk/流式上传.html      
+                url:    /go-sdk/流式上传.html
               - title:  秒传
                 url:    /go-sdk/秒传.html
               - title:  分片上传
-                url:    /go-sdk/分片上传.html 
+                url:    /go-sdk/分片上传.html
               - title:  指定存储类型上传
-                url:    /go-sdk/指定存储类型上传.html  
+                url:    /go-sdk/指定存储类型上传.html
               - title:  上传回调
-                url:    /go-sdk/上传回调.html    
-      
+                url:    /go-sdk/上传回调.html
+
       - title:  文件管理
         children:
               - title:  比较本地文件和远程文件etag
@@ -94,14 +94,14 @@ go-sdk:
               - title:  文件下载
                 url:    /go-sdk/文件下载.html
               - title:  文件删除
-                url:    /go-sdk/文件删除.html 
+                url:    /go-sdk/文件删除.html
               - title:  文件拷贝
-                url:    /go-sdk/文件拷贝.html 
+                url:    /go-sdk/文件拷贝.html
               - title:  文件重命名
-                url:    /go-sdk/文件重命名.html                           
+                url:    /go-sdk/文件重命名.html
               - title:  文件解冻
-                url:    /go-sdk/文件解冻.html      
-             
+                url:    /go-sdk/文件解冻.html
+
 
 python-sdk:
   - title:      Python-SDK
@@ -113,7 +113,7 @@ python-sdk:
       - title:  快速使用
         url:    /python-sdk/快速使用.html
       - title:  初始化
-        url:    /python-sdk/初始化.html                
+        url:    /python-sdk/初始化.html
       - title:  管理存储空间
         children:
               - title:  创建存储空间
@@ -121,7 +121,7 @@ python-sdk:
               - title:  删除存储空间
                 url:    /python-sdk/删除存储空间.html
               - title:  更改存储空间属性
-                url:    /python-sdk/更改存储空间属性.html      
+                url:    /python-sdk/更改存储空间属性.html
               - title:  获取存储空间信息
                 url:    /python-sdk/获取存储空间信息.html
       - title:  文件上传
@@ -131,36 +131,36 @@ python-sdk:
               - title:  表单上传
                 url:    /python-sdk/表单上传.html
               - title:  二进制流上传
-                url:    /python-sdk/二进制流上传.html      
+                url:    /python-sdk/二进制流上传.html
               - title:  秒传
                 url:    /python-sdk/秒传.html
               - title:  分片上传和断点续传
-                url:    /python-sdk/分片上传和断点续传.html 
+                url:    /python-sdk/分片上传和断点续传.html
               - title:  指定存储类型上传
-                url:    /python-sdk/指定存储类型上传.html    
+                url:    /python-sdk/指定存储类型上传.html
 
       - title:  文件管理
         children:
               - title:  文件下载
                 url:    /python-sdk/文件下载.html
               - title:  删除文件
-                url:    /python-sdk/删除文件.html                          
+                url:    /python-sdk/删除文件.html
               - title:  查询文件基本信息
                 url:    /python-sdk/查询文件基本信息.html
               - title:  解冻归档文件
-                url:    /python-sdk/解冻归档文件.html      
+                url:    /python-sdk/解冻归档文件.html
               - title:  文件类型转换
                 url:    /python-sdk/文件类型转换.html
               - title:  比较本地文件和远程文件etag
-                url:    /python-sdk/比较本地文件和远程文件etag.html 
+                url:    /python-sdk/比较本地文件和远程文件etag.html
               - title:  前缀列表查询
                 url:    /python-sdk/前缀列表查询.html
               - title:  获取目录文件列表
                 url:    /python-sdk/获取目录文件列表.html
               - title:  拷贝文件
-                url:    /python-sdk/拷贝文件.html 
+                url:    /python-sdk/拷贝文件.html
               - title:  重命名文件
-                url:    /python-sdk/重命名文件.html                
+                url:    /python-sdk/重命名文件.html
 
 c-sdk:
   - title:      C-SDK
@@ -170,9 +170,9 @@ c-sdk:
       - title:  快速使用
         url:    /c-sdk/快速使用.html
       - title:  初始化请求
-        url:    /c-sdk/初始化请求.html                
+        url:    /c-sdk/初始化请求.html
       - title:  存储空间管理
-        url:    /c-sdk/存储空间管理.html    
+        url:    /c-sdk/存储空间管理.html
       - title:  文件上传
         children:
               - title:  简单上传
@@ -180,8 +180,8 @@ c-sdk:
               - title:  缓存上传
                 url:    /c-sdk/缓存上传.html
               - title:  分片上传
-                url:    /c-sdk/分片上传.html  
-      
+                url:    /c-sdk/分片上传.html
+
       - title:  文件管理
         children:
               - title:  获取文件基本信息
@@ -191,7 +191,7 @@ c-sdk:
               - title:  分片下载
                 url:    /c-sdk/分片下载.html
               - title:  删除文件
-                url:    /c-sdk/删除文件.html 
+                url:    /c-sdk/删除文件.html
 
 c++-sdk:
   - title: C++-SDK
@@ -234,12 +234,12 @@ java-sdk:
           - title:  简单上传
             url:    /java-sdk/简单上传.html
           - title:  流式上传
-            url:    /java-sdk/流式上传.html      
+            url:    /java-sdk/流式上传.html
           - title:  分片上传
-            url:    /java-sdk/分片上传.html 
+            url:    /java-sdk/分片上传.html
           - title:  指定存储类型上传
-            url:    /java-sdk/指定存储类型上传.html  
-       
+            url:    /java-sdk/指定存储类型上传.html
+
       - title:  文件管理
         children:
           - title:  比较本地文件和远程文件etag
@@ -255,10 +255,85 @@ java-sdk:
           - title:  文件下载
             url:    /java-sdk/文件下载.html
           - title:  文件删除
-            url:    /java-sdk/文件删除.html 
+            url:    /java-sdk/文件删除.html
           - title:  文件拷贝
-            url:    /java-sdk/文件拷贝.html                       
+            url:    /java-sdk/文件拷贝.html
           - title:  文件解冻
             url:    /java-sdk/文件解冻.html
           - title:  签名URL
             url:    /java-sdk/签名URL.html
+
+
+js-sdk:
+  - title: JS-SDK
+    children:
+      - title: 概述
+        url:   /js-sdk/概述.html
+      - title: 快速使用
+        url:   /js-sdk/快速使用.html
+      - title: 安装
+        url: /js-sdk/安装.html
+      - title:  文件上传
+        children:
+          - title:  简单上传
+            url:    /js-sdk/简单上传.html
+          - title:  分片上传
+            url:    /js-sdk/分片上传.html
+          - title:  指定存储类型上传
+            url:    /js-sdk/指定存储类型上传.html
+
+      - title:  文件管理
+        children:
+          - title:  存储类型转换
+            url:    /js-sdk/存储类型转换.html
+          - title:  获取对象权限信息
+            url:    /js-sdk/获取对象权限信息.html
+          - title:  获取对象元数据
+            url:    /js-sdk/获取对象元数据.html
+          - title:  获取目标文件列表
+            url:    /js-sdk/获取目录文件列表.html
+          - title:  文件下载
+            url:    /js-sdk/文件下载.html
+          - title:  文件删除
+            url:    /js-sdk/文件删除.html
+          - title:  拷贝文件
+            url:    /js-sdk/拷贝文件.html
+          - title:  解冻归档文件
+            url:    /js-sdk/解冻归档文件.html
+
+node.js-sdk:
+  - title: Node.JS-SDK
+    children:
+      - title: 概述
+        url:   /node.js-sdk/概述.html
+      - title: 快速使用
+        url:   /node.js-sdk/快速使用.html
+      - title: 安装
+        url: /node.js-sdk/安装.html
+      - title:  文件上传
+        children:
+          - title:  简单上传
+            url:    /node.js-sdk/简单上传.html
+          - title:  分片上传
+            url:    /node.js-sdk/分片上传.html
+          - title:  指定存储类型上传
+            url:    /node.js-sdk/指定存储类型上传.html
+
+      - title:  文件管理
+        children:
+          - title:  存储类型转换
+            url:    /node.js-sdk/存储类型转换.html
+          - title:  获取对象权限信息
+            url:    /node.js-sdk/获取对象权限信息.html
+          - title:  获取对象元数据
+            url:    /node.js-sdk/获取对象元数据.html
+          - title:  获取目标文件列表
+            url:    /node.js-sdk/获取目录文件列表.html
+          - title:  文件下载
+            url:    /node.js-sdk/文件下载.html
+          - title:  文件删除
+            url:    /node.js-sdk/文件删除.html
+          - title:  拷贝文件
+            url:    /node.js-sdk/拷贝文件.html
+          - title:  解冻归档文件
+            url:    /node.js-sdk/解冻归档文件.html
