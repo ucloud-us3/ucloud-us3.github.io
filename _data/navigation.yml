@@ -240,7 +240,7 @@ java-sdk:
           - title:  指定存储类型上传
             url:    /java-sdk/指定存储类型上传.html
 
-      - title:  文件管理
+      - title: 文件管理
         children:
           - title:  比较本地文件和远程文件etag
             url:    /java-sdk/比较本地文件和远程文件etag.html
