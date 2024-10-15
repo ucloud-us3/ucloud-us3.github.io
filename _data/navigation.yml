@@ -302,9 +302,9 @@ js-sdk:
             url:    /js-sdk/解冻归档文件.html
 
       - title: AWS S3协议支持说明
-        url: /java-sdk/S3协议支持说明.html
+        url: /js-sdk/S3协议支持说明.html
       - title: AWS S3协议常用工具
-        url: /java-sdk/S3协议常用工具.html
+        url: /js-sdk/S3协议常用工具.html
 
 
 node.js-sdk:
