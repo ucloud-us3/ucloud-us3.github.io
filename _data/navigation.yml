@@ -339,6 +339,6 @@ node.js-sdk:
             url:    /node.js-sdk/解冻归档文件.html
 
       - title:   AWS S3协议支持说明
-        url:     /node.js-sdk/AWS_S3协议支持说明.html
+        url:     /node.js-sdk/S3协议支持说明.html
       - title:   AWS S3协议常用工具
-        url:    /node.js-sdk/AWS_S3协议常用工具.html
+        url:    /node.js-sdk/S3协议常用工具.html
