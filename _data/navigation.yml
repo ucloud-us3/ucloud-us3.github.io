@@ -337,3 +337,5 @@ node.js-sdk:
             url:    /node.js-sdk/拷贝文件.html
           - title:  解冻归档文件
             url:    /node.js-sdk/解冻归档文件.html
+      - title: AWS S3协议支持说明
+        url: /node.js-sdk/AWS_S3协议支持说明.html
