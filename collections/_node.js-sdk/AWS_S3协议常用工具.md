@@ -41,9 +41,8 @@ S3 Browser 是一种易于使用和强大的 Amazon S3 免费客户端。 它提
 
 **Signature Version:** 签名版本，选择 Signature V4。
 
-**Access Key ID:** Api 公钥，或者 Token。具体获取请参考 [S3 的 AccessKeyID 和 SecretAccessKey 说明](/docs/ufile/devguide/s3/s3_introduction#s3-的-accesskeyid-和-secretaccesskey-说明) 。
-
-**Secret Access Key:** API 私钥。具体获取请参考 [S3 的 AccessKeyID 和 SecretAccessKey 说明](/docs/ufile/devguide/s3/s3_introduction#s3-的-accesskeyid-和-secretaccesskey-说明) 。
+**Access Key ID:** Api 公钥，或者 Token。具体获取请参考S3 的 AccessKeyID 和 SecretAccessKey 说明。
+**Secret Access Key:** API 私钥。具体获取请参考S3 的 AccessKeyID 和 SecretAccessKey 说明。
 
 **Encrypt Access Keys with a passward:** 请勿勾选。
 
@@ -192,7 +191,7 @@ CentOS 系统下安装依赖软件：
 
 在 `${HOME}/` 目录中创建 `.passwd-s3fs` 文件。文件格式为 `[API 公钥:API 秘钥]`。
 
-公私钥获取方式具体请参考获取请参考 [S3 的 AccessKeyID 和 SecretAccessKey 说明](/docs/ufile/devguide/s3/s3_introduction#s3-的-accesskeyid-和-secretaccesskey-说明)。
+公私钥获取方式具体请参考获取请参考S3 的 AccessKeyID 和 SecretAccessKey 说明。
 
 例如:
 
@@ -217,7 +216,7 @@ CentOS 系统下安装依赖软件：
 
   注意:空间名称不带域名后缀，比如 US3 空间名称显示为`test.cn-bj.example.com`，则`${UFileBucketName}=test`
 
-- 根据 US3 存储空间所在地域，本地服务器是否在 {{channelName}} 内网，参考[支持 AWS S3 协议说明](/docs/ufile/devguide/s3/s3_introduction)
+- 根据 US3 存储空间所在地域，本地服务器是否在 {{channelName}} 内网，参考AWS S3 协议支持说明。
 
 - 执行命令。
 
@@ -414,11 +413,7 @@ host_bucket = "请求风格，例如: %(bucket)s.s3-cn-bj.example.com"
 multipart_chunk_size_mb = 8 "us3 支持的s3协议分片大小为8M,所以这里只能填8"
 
 ```
-access_key: 参考[Token公钥]({{consoleURL}}/ufile/token)/[API公钥]({{consoleURL}}/uapi/apikey)
 
-secret_key: 参考 [Token私钥]({{consoleURL}}/ufile/token)/[API私钥]({{consoleURL}}/uapi/apikey)
-
-host_base： 参考 [s3协议域名](/collections/_node.js-sdk/AWS_S3协议支持说明.md)
 
 #### 示例配置项
 
@@ -573,11 +568,6 @@ bucket_acl = private // public/private
 chunk_size = 8M                          //目前只支持8M分片
 ```
 
-access_key_id: 参考[Token公钥]({{consoleURL}}/ufile/token)/[API公钥]({{consoleURL}}/uapi/apikey)
-
-secret_access_key: 参考 [Token私钥]({{consoleURL}}/ufile/token)/[API私钥]({{consoleURL}}/uapi/apikey)
-
-endpoint： 参考 [s3协议域名](/collections/_node.js-sdk/AWS_S3协议支持说明.md)
 
 #### 使用方法
 
