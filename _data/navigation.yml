@@ -269,10 +269,11 @@ js-sdk:
     children:
       - title: 概述
         url:   /js-sdk/概述.html
-      - title: 快速使用
-        url:   /js-sdk/快速使用.html
       - title: 安装
         url: /js-sdk/安装.html
+      - title: 快速使用
+        url:   /js-sdk/快速使用.html
+
       - title:  文件上传
         children:
           - title:  简单上传
@@ -312,10 +313,11 @@ node.js-sdk:
     children:
       - title: 概述
         url:   /node.js-sdk/概述.html
+      - title: 安装
+        url: /node.js-sdk/安装.html
       - title: 快速使用
         url:   /node.js-sdk/快速使用.html
-      - title: 安装
-        url:   /node.js-sdk/安装.html
+
       - title:  文件上传
         children:
           - title:  简单上传
