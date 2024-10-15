@@ -270,7 +270,7 @@ js-sdk:
       - title: 概述
         url:   /js-sdk/概述.html
       - title: 安装
-        url: /js-sdk/安装.html
+        url:   /js-sdk/安装.html
       - title: 快速使用
         url:   /js-sdk/快速使用.html
 
@@ -314,7 +314,7 @@ node.js-sdk:
       - title: 概述
         url:   /node.js-sdk/概述.html
       - title: 安装
-        url: /node.js-sdk/安装.html
+        url:   /node.js-sdk/安装.html
       - title: 快速使用
         url:   /node.js-sdk/快速使用.html
 
