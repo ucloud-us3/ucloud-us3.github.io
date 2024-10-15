@@ -310,11 +310,6 @@ node.js-sdk:
         url:   /node.js-sdk/快速使用.html
       - title: 安装
         url:   /node.js-sdk/安装.html
-      - title: AWS S3协议支持说明
-        url: /node.js-sdk/S3协议支持说明.html
-      - title: AWS S3协议常用工具
-        url: /node.js-sdk/S3协议常用工具.html
-
       - title:  文件上传
         children:
           - title:  简单上传
@@ -323,7 +318,6 @@ node.js-sdk:
             url:    /node.js-sdk/分片上传.html
           - title:  指定存储类型上传
             url:    /node.js-sdk/指定存储类型上传.html
-
       - title:  文件管理
         children:
           - title:  存储类型转换
@@ -342,5 +336,9 @@ node.js-sdk:
             url:    /node.js-sdk/拷贝文件.html
           - title:  解冻归档文件
             url:    /node.js-sdk/解冻归档文件.html
+      - title: AWS S3协议支持说明
+        url: /node.js-sdk/S3协议支持说明.html
+      - title: AWS S3协议常用工具
+        url: /node.js-sdk/S3协议常用工具.html
 
 
