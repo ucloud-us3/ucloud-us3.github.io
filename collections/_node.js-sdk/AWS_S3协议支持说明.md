@@ -133,12 +133,12 @@ S3 的 AccessKeyID（或称AccessKey）和 SecretAccessKey（或称SecretKey）�
 
 ## 访问域名（Endpoint）
 访问域名的一般语法如下：
-### **`protocol://s3-<region_code>.<custom_domain>`**
+ **`protocol://s3-<region_code>.<custom_domain>`**
 
 例如，http://s3-cn-sh2.example.com 是中国上海地区的 example S3 服务的外网访问域名。其中，**s3** 是AWS S3服务的`<service_code>`， **cn-sh2** 是`<region_code>`，**.example.com** 是 `<custom_domain>`。
 
 对于内网访问域名，可以使用如下格式：
-### **`protocol://internal.s3-<region_code>.<custom_domain>`**
+**`protocol://internal.s3-<region_code>.<custom_domain>`**
 内网的 **service_code** 前需加上 内网访问标识符 **internal.**
 即上述示例访问域名改为 http://internal.s3-cn-sh2.example.com
 
