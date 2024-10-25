@@ -245,3 +245,7 @@ collections:
     output: true
   java-sdk:
     output: true
+  js-sdk:
+    output: true
+  node.js-sdk:
+    output: true
