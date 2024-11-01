@@ -249,3 +249,5 @@ collections:
     output: true
   node.js-sdk:
     output: true
+  php-sdk:
+    output: true
