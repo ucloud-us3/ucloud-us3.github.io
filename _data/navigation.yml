@@ -350,3 +350,46 @@ node.js-sdk:
         url: /node.js-sdk/S3协议常用工具.html
 
 
+
+php-sdk:
+  - title: PHP-SDK
+    children:
+      - title: 概述
+        url:  /php-sdk/概述.html
+      - title: 安装
+        url:   /php-sdk/安装.html
+      - title: 快速使用
+        url:   /php-sdk/快速使用.html
+
+      - title:  文件上传
+        children:
+          - title:  简单上传
+            url:    /php-sdk/简单上传.html
+          - title:  分片上传
+            url:    /php-sdk/分片上传.html
+          - title:  指定存储类型上传
+            url:    /php-sdk/指定存储类型上传.html
+      - title:  文件管理
+        children:
+          - title:  存储类型转换
+            url:    /php-sdk/存储类型转换.html
+          - title:  获取对象权限信息
+            url:    /php-sdk/获取对象权限信息.html
+          - title:  获取对象元数据
+            url:    /php-sdk/获取对象元数据.html
+          - title:  获取目录文件列表
+            url:    /php-sdk/获取目录文件列表.html
+          - title:  文件下载
+            url:    /php-sdk/文件下载.html
+          - title:  删除文件
+            url:    /php-sdk/删除文件.html
+          - title:  拷贝文件
+            url:    /php-sdk/拷贝文件.html
+          - title:  解冻归档文件
+            url:    /php-sdk/解冻归档文件.html
+      - title: AWS S3 协议支持说明
+        url: /php-sdk/S3协议支持说明.html
+      - title: AWS S3 协议常用工具
+        url: /php-sdk/S3协议常用工具.html
+
+
