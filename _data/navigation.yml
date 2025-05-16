@@ -101,6 +101,8 @@ go-sdk:
                 url:    /go-sdk/文件重命名.html
               - title:  文件解冻
                 url:    /go-sdk/文件解冻.html
+              - title:  文件访问控制
+                url:    /go-sdk/文件访问控制.html
 
 
 python-sdk:
