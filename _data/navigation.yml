@@ -70,8 +70,6 @@ go-sdk:
                 url:    /go-sdk/表单上传.html
               - title:  流式上传
                 url:    /go-sdk/流式上传.html
-              - title:  秒传
-                url:    /go-sdk/秒传.html
               - title:  分片上传
                 url:    /go-sdk/分片上传.html
               - title:  指定存储类型上传
