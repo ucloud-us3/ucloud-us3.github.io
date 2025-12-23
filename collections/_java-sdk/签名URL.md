@@ -64,6 +64,7 @@ public static void getPrivateURL(String keyName, String bucketName, int expiresD
 ### 使用签名URL上传（PUT 预签名URL）
 
 SDK 同时提供**私有空间对象的上传预签名URL**接口 `getUploadUrlToPrivateBucket`，用于在**不暴露 API 公私钥**的情况下，允许客户端直接通过 HTTP PUT 上传文件。
+> 版本支持：SDK **v2.7.5+** 支持该接口。
 
 - 生成的 URL 有效期由 `expiresDuration` 控制（单位：秒）
 - **上传请求的 `Content-Type` 必须与签名时设置的 `Content-Type` 完全一致**，否则可能导致验签失败（建议使用 `createUrlWithHeaders()` 返回的 headers）
