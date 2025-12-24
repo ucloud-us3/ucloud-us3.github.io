@@ -1,7 +1,7 @@
 ---
 title: '在URL中包含签名'
 sidebar:
-nav: java-sdk
+  nav: java-sdk
 ---
 
 SDK 提供**下载签名URL（公有/私有）**与**上传预签名URL（PUT）**能力。
